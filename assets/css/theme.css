@@ -1,0 +1,209 @@
+/***************************************/
+body{
+  color: #000;
+  line-height: 35px;
+  font-family: 'open_sansregular';
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'montserratblack';
+}
+.works,
+.about,
+.team,
+.dreams{
+  margin: 100px 20px 0 20px;
+  clear: both;
+}
+.clearfix{
+  clear: both;
+}
+section h3 span{
+  color: red;
+  font-size: 55px;
+  font-family: 'montserratblack';
+}
+body,
+a,
+button,
+input[type="text"]{
+  cursor: url('../images/cursor.png'), default;
+}
+a:hover,
+button:hover,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev{
+  cursor: url('../images/cursor-hover.png'), default;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.sectionContent{
+  /*height: 100vh;*/
+  /*width: 100%;*/
+}
+.intro h4{
+  text-transform: uppercase;
+  font-family: 'montserratblack';
+}
+.box{
+  width: 16.15%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+  line-height: 39px;
+}
+.box ul,
+.contactInfo ul{
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+.contactInfo li{
+  display: block;
+}
+.box h4{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'montserratregular';
+}
+.box h4 span{
+  font-size: 52px;
+  font-family: 'montserratblack';
+}
+.box:hover span{
+  color: red;
+}
+.aboutPara{
+  float: left;
+  width: 65%;
+  margin-right: 5%;
+}
+.contactInfo{
+  float: right;
+  width: 30%;
+}
+.teamBox{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.teamBox h2{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.teamBox h2 span{
+  color: red;
+  font-size: 55px;
+}
+.teamBox p{
+  margin: 0;
+}
+.outer {
+  display: table;
+  /* position: absolute; */
+  /* height: 100%; */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 10%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  margin: 0 auto;
+}
+.banner{
+  background-image: url('../images/design-banner.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: 0 100px;
+  background-attachment: fixed;
+}
+.banner,
+.banner h2,
+.banner h2 span{
+  text-align: center;
+  font-family: 'montserratblack';
+  font-size: 134px;
+}
+.banner h2 span{
+  color: red;
+}
+.team h2{
+  font-family: 'montserratblack';
+}
+.dream{
+  height: 1366px;
+  width: 100%;
+  background-image: url("../images/dream.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+footer span{
+  color: red;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 95px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  line-height: 100px;
+  font-family: 'montserratblack';
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a:hover span{
+  color: red;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navigation{
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+.navigation a{
+  font-size: 25px;
+}
